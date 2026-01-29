@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-iflow-mcp-ezhuk-mqtt-mcp = "mqtt_mcp.cli:app"
+iflow-mcp_ezhuk_mqtt-mcp = "mqtt_mcp.cli:app"
 
 [build-system]
 requires = ["hatchling"]

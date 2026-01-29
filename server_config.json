@@ -1,0 +1,3 @@
+{
+  "serverConfig": "{\"mcpServers\":{\"mqtt-mcp\":{\"command\":\"uvx\",\"args\":[\"iflow-mcp_ezhuk_mqtt-mcp\"],\"values\":{}}}}"
+}
