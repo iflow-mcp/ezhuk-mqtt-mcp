@@ -1,0 +1,4 @@
+[2026-01-29T04:21:06+00:00] [START] 开始处理项目: mqtt-mcp
+[2026-01-29T04:21:06+00:00] [OK] 项目分析完成: Python MCP服务端项目，支持Streamable HTTP协议
+[2026-01-29T04:21:21+00:00] [OK] 修改pyproject.toml: 包名改为 iflow-mcp_ezhuk_mqtt-mcp
+[2026-01-29T04:24:56+00:00] [OK] 本地测试成功：获取到2个工具

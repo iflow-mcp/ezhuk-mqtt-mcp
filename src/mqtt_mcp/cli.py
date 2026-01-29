@@ -11,6 +11,8 @@ app = typer.Typer(
 
 
 @app.command()
-def run():
+def run(
+    transport: str = typer.Option("stdio", help="Transport protocol: stdio or http")
+):
     server = MQTTMCP()
-    asyncio.run(server.run_async(transport="http"))
+    asyncio.run(server.run_async(transport=transport))
