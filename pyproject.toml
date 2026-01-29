@@ -1,6 +1,6 @@
 [project]
 name = "iflow-mcp_ezhuk_mqtt-mcp"
-version = "0.2.8"
+version = "0.2.9"
 description = "A Model Context Protocol (MCP) server for MQTT"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-iflow-mcp_ezhuk_mqtt-mcp = "mqtt_mcp.cli:app"
+iflow-mcp-ezhuk-mqtt-mcp = "mqtt_mcp.cli:app"
 
 [build-system]
 requires = ["hatchling"]
